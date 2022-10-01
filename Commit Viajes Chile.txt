@@ -1,0 +1,265 @@
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga
+$ git init
+Initialized empty Git repository in C:/Users/jgarmendia/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga/.git/
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit - m " Primer Commit"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec ' Primer Commit' did not match any file(s) known to git
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Primer Commit"
+[master (root-commit) ea4a859]  Primer Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git remote add origin https://github.com/jgarmendia2022/viajeschilejga.git
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 414 bytes | 414.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Estructura Commit"
+[master 5c7dd7d]  Estructura Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/js/script.js
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 465 bytes | 465.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+   ea4a859..5c7dd7d  master -> master
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Contenido JS  Commit"
+[master da3fc8f]  Contenido JS  Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 61 insertions(+)
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 991 bytes | 991.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+   5c7dd7d..da3fc8f  master -> master
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Contenido CSS  Commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   assets/css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Everything up-to-date
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Contenido CSS  Commit"
+[master 6a834ed]  Contenido CSS  Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 256 insertions(+)
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.35 KiB | 1.35 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+   da3fc8f..6a834ed  master -> master
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Contenido imagenes  Commit"
+[master 6dc068b]  Contenido imagenes  Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 1 insertion(+)
+ create mode 100644 assets/img/card1.jpg
+ create mode 100644 assets/img/card2.jpg
+ create mode 100644 assets/img/card3.jpg
+ create mode 100644 assets/img/card4.jpg
+ create mode 100644 assets/img/carousel1.jpg
+ create mode 100644 assets/img/carousel2.jpg
+ create mode 100644 assets/img/carousel3.jpg
+ create mode 100644 assets/img/viajes.svg
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 16.91 MiB | 5.64 MiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+   6a834ed..6dc068b  master -> master
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git add .
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git commit -m " Pagina principal  Commit"
+[master 2c2175b]  Pagina principal  Commit
+ Committer: Garmendia Astudillo Jaime Rodrigo <jgarmendia@hogardecristo.cl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 180 insertions(+), 7 deletions(-)
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.40 KiB | 3.40 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jgarmendia2022/viajeschilejga.git
+   6dc068b..2c2175b  master -> master
+
+jgarmendia@NTBK-102252-HDC MINGW64 ~/OneDrive - Fundacion Hogar de Cristo/Escritorio/desafiolatam/viajeschilejga (master)
+$

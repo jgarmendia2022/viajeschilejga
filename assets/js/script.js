@@ -55,7 +55,7 @@ $(function () {
 });
 
   $("#quienesomos").hover(function() {
-    $(this).css('cursor','pointer').attr('title', 'Los mejores viajes estan junto a nosotros');
+    $(this).css('cursor','pointer').attr('title', 'Somos una empresa lider en Viajes nacionales');
 }, function() {
     $(this).css('cursor','auto');
 });

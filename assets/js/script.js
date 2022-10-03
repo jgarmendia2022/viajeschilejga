@@ -1,17 +1,6 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 
-    $('#quienesomos').click(function(){
-        alert("Somos la mejor empresa de viajes")
-    });
-
-    $('#destacados').click(function(){
-        alert("Comparte en los mejores lugares de Chile")
-    });
-    
-    $('#contactos').click(function(){
-        alert("Que esperas para ser parte de nosotros?")
-    });
     
     $('.titulo1').click(function(){
         $('.texto1').toggle();
